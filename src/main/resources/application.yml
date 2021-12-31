@@ -1,11 +1,11 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/loginTest
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://basketball-diary.comugfwcpzzw.ap-northeast-2.rds.amazonaws.com/basketDiary
+    username: admin
+    password: Basket5199
 
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: create
     properties:
